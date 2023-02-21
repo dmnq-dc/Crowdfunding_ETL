@@ -1,15 +1,16 @@
 # Crowdfunding_ETL
-Week 13 - Project 2
+Week 13 - Project 2 :cold_sweat: :cold_sweat: :cold_sweat:
 
-Challenge:
-1. Create the Category and Subcategory DataFrames
+
+:pushpin: Challenge: 
+1. Create the Category and Subcategory DataFrames 
 2. Create the Campaign DataFrame
 3. Create the Contacts DataFrame
 4. Create the Crowdfunding Database
 
 -------------------------
 
-Create the Category and Subcategory DataFrames
+:bangbang: Create the Category and Subcategory DataFrames :bangbang:
 
 	1.1 A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 	1.2 A "category" column that contains only the category titles
@@ -18,7 +19,8 @@ Create the Category and Subcategory DataFrames
 
 --------------------------
 
-Create the Campaign DataFrame with the following columns:
+:bangbang: Create the Campaign DataFrame with the following columns: :bangbang:
+
 	2.1 "cf_id"
 	2.2 "contact_id"
 	2.3 "company_name"
@@ -36,9 +38,10 @@ Create the Campaign DataFrame with the following columns:
 
 -------------------------
 
-Create the Contacts DataFrame
+:bangbang: Create the Contacts DataFrame :bangbang:
 
-Option 1: Use Python dictionary methods.
+Option 1: Use Python dictionary methods. :white_check_mark: :white_check_mark:
+
 	3.1.1 Import the contacts.xlsx file into a DataFrame. 
 	3.1.2 Iterate through the DataFrame, converting each row to a dictionary.
 	3.1.3 Iterate through each dictionary, doing the following:
@@ -48,7 +51,8 @@ Option 1: Use Python dictionary methods.
 	3.1.7 Split each "name" column value into a first and last name, and place each in a new column.
 	3.1.8 Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
 
-Option 2: Use regular expressions.
+Option 2: Use regular expressions. :white_check_mark: :white_check_mark:
+
 	3.2.1 Import the contacts.xlsx file into a DataFrame.
 	3.2.2 Extract the "contact_id", "name", and "email" columns by using regular expressions.
 	3.2.3 Create a new DataFrame with the extracted data.
@@ -58,7 +62,8 @@ Option 2: Use regular expressions.
 
 -------------------------
 
-Create the Crowdfunding Database
+:bangbang: Create the Crowdfunding Database :bangbang:
+
 	4.1 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
 	4.2 Use the information from the ERD to create a table schema for each CSV file.
 	4.3 Note: Remember to specify the data types, primary keys, foreign keys, and other constraints.
